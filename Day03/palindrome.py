@@ -12,4 +12,4 @@ while n>0:
 if temp==rev:
     print("palindrome")
 else:
-    print("not palindrome") 
+    print("not palindrome")
