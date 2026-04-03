@@ -1,0 +1,10 @@
+n = [10, 20, 30, 40]
+
+total = 0
+
+for i in n:
+    total += i
+
+avg = total / len(n)
+
+print("Average =", avg)
