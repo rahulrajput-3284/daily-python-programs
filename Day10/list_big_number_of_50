@@ -1,0 +1,9 @@
+n = [12, 43, 7, 23, 67, 27, 88, 55]
+
+count = 0
+
+for i in n:
+    if i > 50:
+        count += 1
+
+print("Count =", count)
