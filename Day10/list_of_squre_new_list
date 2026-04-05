@@ -1,0 +1,9 @@
+n = [2, 3, 4]
+
+square_list = []
+
+for i in n:
+    square = i * i
+    square_list.append(square)
+
+print(square_list)
