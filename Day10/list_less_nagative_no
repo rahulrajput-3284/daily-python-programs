@@ -1,0 +1,9 @@
+n = [5, -3, 7, -2, 9]
+
+neg = []
+
+for i in n:
+    if i < 0:
+        neg.append(i)
+
+print(neg)
