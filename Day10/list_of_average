@@ -1,0 +1,12 @@
+n = [10, 20, 30, 40]
+
+total = 0
+count = 0
+
+for i in n:
+    total += i
+    count += 1
+
+avg = total / count
+
+print(avg)
