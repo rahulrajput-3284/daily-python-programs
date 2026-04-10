@@ -1,0 +1,7 @@
+n = [1, 2, 3, 2, 4, 2]
+
+num = 2
+
+freq = n.count(num)
+
+print("Frequency =", freq)
