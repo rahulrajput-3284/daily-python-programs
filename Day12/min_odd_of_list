@@ -1,0 +1,10 @@
+n = [5, 12, 7, 8, 3, 10]
+
+min_odd = None
+
+for i in n:
+    if i % 2 != 0:
+        if min_odd is None or i < min_odd:
+            min_odd = i
+
+print(min_odd)
