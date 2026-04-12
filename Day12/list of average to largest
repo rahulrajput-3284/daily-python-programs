@@ -1,0 +1,16 @@
+n = [10, 20, 30, 40]
+
+total = 0
+
+for i in n:
+    total += i
+
+avg = total / len(n)
+
+count = 0
+
+for i in n:
+    if i > avg:
+        count += 1
+
+print(count)
