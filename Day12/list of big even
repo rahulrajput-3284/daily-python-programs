@@ -1,0 +1,10 @@
+n = [5, 12, 7, 8, 3, 10]
+
+max_even = None
+
+for i in n:
+    if i % 2 == 0:
+        if max_even is None or i > max_even:
+            max_even = i
+
+print(max_even)
