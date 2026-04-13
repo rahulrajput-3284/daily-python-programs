@@ -1,0 +1,14 @@
+n = [1, 2, 3, 5]
+
+N = len(n) + 1
+
+expected_sum = N * (N + 1) // 2
+
+actual_sum = 0
+
+for i in n:
+    actual_sum += i
+
+missing = expected_sum - actual_sum
+
+print(missing)
