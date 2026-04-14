@@ -1,0 +1,9 @@
+s = "rahul"
+
+count = 0
+
+for i in s.lower():
+    if i in "bcdfghjklmpqrstvxyz":
+        count += 1
+
+print(count)
