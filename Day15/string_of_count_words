@@ -1,0 +1,5 @@
+s = "rahul is learning python"
+
+words = s.split()
+
+print(len(words))
