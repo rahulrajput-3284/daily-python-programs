@@ -1,0 +1,9 @@
+s = "aabbcdeff"
+
+last_char = ""
+
+for i in s:
+    if s.count(i) == 1:
+        last_char = i
+
+print(last_char)
