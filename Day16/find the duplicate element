@@ -1,0 +1,10 @@
+s = "programming"
+
+dup = ""
+
+for i in s:
+    if s.count(i) > 1:
+        if i not in dup:
+            dup += i
+
+print(dup)
