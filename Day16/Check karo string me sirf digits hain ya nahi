@@ -1,0 +1,13 @@
+s = "12a45"
+
+flag = True
+
+for i in s:
+    if i not in "0123456789":
+        flag = False
+        break
+
+if flag:
+    print("Digits only")
+else:
+    print("Not digits")
