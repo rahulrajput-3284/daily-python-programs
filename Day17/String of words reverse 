@@ -1,0 +1,9 @@
+s = "rahul is learning python"
+
+words = s.split()
+
+rev_words = words[::-1]
+
+result = " ".join(rev_words)
+
+print(result)
