@@ -1,0 +1,8 @@
+t = (10, 20, 30, 20, 40, 10, 20)
+
+checked = ()
+
+for i in t:
+    if i not in checked:
+        print(i, "→", t.count(i))
+        checked += (i,)
