@@ -1,0 +1,15 @@
+t = (12, 45, 7, 23, 89)
+
+max_num = t[0]
+min_num = t[0]
+
+for i in t:
+    
+    if i > max_num:
+        max_num = i
+        
+    if i < min_num:
+        min_num = i
+
+print("Max =", max_num)
+print("Min =", min_num)

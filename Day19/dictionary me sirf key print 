@@ -1,0 +1,4 @@
+d = {"name": "Rahul", "age": 21, "city": "Indore"}
+
+for key in d:
+    print(key)
