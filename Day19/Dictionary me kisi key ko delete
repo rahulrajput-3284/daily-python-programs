@@ -1,0 +1,5 @@
+d = {"name":"Rahul", "age":21, "city":"Indore"}
+
+del d["age"]
+
+print(d)
