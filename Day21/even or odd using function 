@@ -1,0 +1,8 @@
+def check_even(n):
+    if n % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+
+check_even(10)
+check_even(7)
