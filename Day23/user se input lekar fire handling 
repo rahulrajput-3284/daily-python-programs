@@ -4,4 +4,4 @@ f = open("test.txt", "a")
 
 f.write(name)
 
-f.close()
+f.close() 
