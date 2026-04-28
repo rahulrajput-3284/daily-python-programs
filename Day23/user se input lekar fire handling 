@@ -1,0 +1,7 @@
+name = input("Enter your name: ")
+
+f = open("test.txt", "a")
+
+f.write(name)
+
+f.close()
