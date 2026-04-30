@@ -3,4 +3,4 @@ try:
     print(a)
 
 except:
-    print("Error occurred") 
+    print("Error occurred")
