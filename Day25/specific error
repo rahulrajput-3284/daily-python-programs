@@ -3,4 +3,4 @@ try:
     b = 0
     print(a/b)
 except ZeroDivisionError:
-    print("Zero se divide nahi hota bhai")
+    print("Zero se divide nahi hota bhai") 
