@@ -1,0 +1,9 @@
+class MyError(Exception):
+    pass
+
+try:
+    num = -1
+    if num < 0:
+        raise MyError("Negative number not allowed")
+except MyError as e:
+    print(e)
