@@ -1,0 +1,7 @@
+try:
+    f = open("file.txt")
+    print(f.read())
+except:
+    print("File nahi mili")
+finally:
+    print("File close kar diya")
