@@ -4,4 +4,4 @@ try:
     except ZeroDivisionError:
         print("Inner error handle")
 except:
-    print("Outer error") 
+    print("Outer error")
