@@ -7,4 +7,4 @@ class Student:
 s1 = Student("Rahul", 20)
 
 print(s1.name)
-print(s1.age). 
+print(s1.age).
