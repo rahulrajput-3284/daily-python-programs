@@ -1,0 +1,8 @@
+class Student:
+
+    def hello(self):
+        print("Hello Bhai")
+
+s1 = Student()
+
+s1.hello()
