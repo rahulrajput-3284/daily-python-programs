@@ -18,4 +18,4 @@ class Student:
 s1 = Student("Rahul", 85)
 
 s1.display()
-s1.grade()
+s1.grade() 
