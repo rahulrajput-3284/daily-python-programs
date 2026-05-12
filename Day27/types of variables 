@@ -1,0 +1,21 @@
+class Student:
+
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def display(self):
+        print("Name:", self.name)
+        print("Marks:", self.marks)
+
+    def grade(self):
+
+        if self.marks >= 80:
+            print("Grade A")
+        else:
+            print("Grade B")
+
+s1 = Student("Rahul", 85)
+
+s1.display()
+s1.grade()
