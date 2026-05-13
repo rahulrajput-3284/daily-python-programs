@@ -1,0 +1,15 @@
+class Student:
+class Student:
+
+    college = "DAVV"
+
+    @classmethod
+    def showCollege(cls):
+        print(cls.college)
+
+Student.showCollege(
+    @classmethod
+    def showCollege(cls):
+        print(cls.college)
+
+Student.showCollege()
