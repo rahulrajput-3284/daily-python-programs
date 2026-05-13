@@ -12,4 +12,4 @@ Student.showCollege(
     def showCollege(cls):
         print(cls.college)
 
-Student.showCollege()
+Student.showCollege() 
