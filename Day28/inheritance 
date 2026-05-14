@@ -1,0 +1,11 @@
+class Father:
+
+    def bike(self):
+        print("Father has bike")
+
+class Son(Father):
+    pass
+
+s = Son()
+
+s.bike()
