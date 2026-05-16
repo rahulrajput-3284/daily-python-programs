@@ -1,0 +1,9 @@
+class Father:
+
+    def __init__(self):
+        print("Father Constructor")
+
+class Son(Father):
+    pass
+
+s = Son()
