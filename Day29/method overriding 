@@ -13,4 +13,4 @@ class C(B):
 
 obj = C()
 
-obj.show() 
+obj.show()
