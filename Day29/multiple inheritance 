@@ -14,4 +14,4 @@ class Son(Father, Mother):
 s = Son()
 
 s.business()
-s.cooking()
+s.cooking() 
