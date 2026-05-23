@@ -1,0 +1,17 @@
+class Father:
+
+    def business(self):
+        print("Father Business")
+
+class Mother:
+
+    def cooking(self):
+        print("Mother Cooking")
+
+class Son(Father, Mother):
+    pass
+
+s = Son()
+
+s.business()
+s.cooking()
