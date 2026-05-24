@@ -19,4 +19,4 @@ class C(B):
 
         print("Constructor C")
 
-obj = C() 
+obj = C()
