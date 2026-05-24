@@ -1,0 +1,14 @@
+class A:
+
+    def __init__(self):
+        print("Constructor A")
+
+class B:
+
+    def __init__(self):
+        print("Constructor B")
+
+class C(A, B):
+    pass
+
+obj = C()
