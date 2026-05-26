@@ -1,0 +1,20 @@
+class Teacher:
+
+    def teach(self):
+        print("Teaching students")
+
+class Writer:
+
+    def write(self):
+        print("Writing books")
+
+class Person(Teacher, Writer):
+
+    def speak(self):
+        print("Speaking")
+
+p = Person()
+
+p.teach()
+p.write()
+p.speak()
