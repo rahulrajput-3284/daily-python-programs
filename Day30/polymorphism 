@@ -10,4 +10,4 @@ class Dog(Animal):
 
 d = Dog()
 
-d.sound() 
+d.sound()
