@@ -1,0 +1,20 @@
+class RBI:
+
+    def interest(self):
+        print("Normal Interest")
+
+class SBI(RBI):
+
+    def interest(self):
+        print("7% Interest")
+
+class HDFC(RBI):
+
+    def interest(self):
+        print("8% Interest")
+
+s = SBI()
+h = HDFC()
+
+s.interest()
+h.interest()
