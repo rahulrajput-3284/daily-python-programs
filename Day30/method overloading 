@@ -6,4 +6,4 @@ class Math:
 m = Math()
 
 m.add(2,3)
-m.add(2,3,4) 
+m.add(2,3,4)
