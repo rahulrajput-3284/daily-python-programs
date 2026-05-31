@@ -9,4 +9,4 @@ class Cat:
         print("Meow")
 
 for animal in [Dog(), Cat()]:
-    animal.speak() 
+    animal.speak()
