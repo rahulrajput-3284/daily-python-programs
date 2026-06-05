@@ -4,4 +4,4 @@ class Student:
 
         self.name = "Rahul"      # Public
         self._course = "BCA"     # Protected
-        self.__marks = 85         # Private
+        self.__marks = 85        # Private
