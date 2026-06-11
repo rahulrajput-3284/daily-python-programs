@@ -1,0 +1,26 @@
+from abc import ABC, abstractmethod
+
+class Bank(ABC):
+
+    @abstractmethod
+    def interest(self):
+        pass
+
+
+class SBI(Bank):
+
+    def interest(self):
+        print("SBI Interest = 7%")
+
+
+class HDFC(Bank):
+
+    def interest(self):
+        print("HDFC Interest = 8%")
+
+
+s = SBI()
+h = HDFC()
+
+s.interest()
+h.interest()
