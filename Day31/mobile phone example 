@@ -12,4 +12,4 @@ class Android(Phone):
         print("Calling...")
 
 a = Android()
-a.call() 
+a.call()
