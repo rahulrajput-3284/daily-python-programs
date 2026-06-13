@@ -13,4 +13,4 @@ class UPI(Payment):
 
 u = UPI()
 
-u.pay(500)
+u.pay(500) 
