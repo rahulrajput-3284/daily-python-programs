@@ -1,0 +1,8 @@
+import json
+
+data = {
+    "name": "Rahul",
+    "age": 20
+}
+
+print(json.dumps(data))
