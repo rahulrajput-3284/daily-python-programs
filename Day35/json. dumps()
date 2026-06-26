@@ -8,4 +8,4 @@ student = {
 data = json.dumps(student)
 
 print(data)
-print(type(data))
+print(type(data)) 
