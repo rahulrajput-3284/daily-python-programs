@@ -1,0 +1,11 @@
+import json
+
+student = {
+    "name": "Rahul",
+    "age": 20
+}
+
+data = json.dumps(student)
+
+print(data)
+print(type(data))
