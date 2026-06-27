@@ -1,0 +1,9 @@
+import json
+
+student = {
+    "name": "Rahul",
+    "age": 20
+}
+
+with open("student.json", "w") as f:
+    json.dump(student, f)
