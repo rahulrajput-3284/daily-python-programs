@@ -1,0 +1,17 @@
+import json
+
+employee = {
+    "id": 101,
+    "name": "Rahul",
+    "salary": 50000
+}
+
+# Save in file
+with open("employee.json", "w") as f:
+    json.dump(employee, f)
+
+# Read from file
+with open("employee.json", "r") as f:
+    data = json.load(f)
+
+print(data)
