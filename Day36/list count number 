@@ -1,0 +1,8 @@
+arr = [15, 8, 22, 5, 17]
+
+count = 0
+
+for i in arr:
+    count = count + 1
+
+print("Count =", count)
