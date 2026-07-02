@@ -12,4 +12,4 @@ for i in arr:
         second_largest = i
 
 print("Largest =", largest)
-print("Second Largest =", second_largest) 
+print("Second Largest =", second_largest)
