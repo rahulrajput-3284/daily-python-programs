@@ -1,0 +1,8 @@
+arr = [25, 90, 14, 67, 3, 120, 45]
+
+target = 67
+
+for i in arr:
+    if i == target:
+        print("Element Found")
+        break
