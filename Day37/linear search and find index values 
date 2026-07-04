@@ -6,4 +6,4 @@ for index in range(len(arr)):
     if arr[index] == target:
         print("Element Found")
         print("Index =", index)
-        break 
+        break
