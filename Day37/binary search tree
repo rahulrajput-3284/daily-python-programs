@@ -1,0 +1,20 @@
+arr = [3, 14, 25, 45, 67, 90, 120]
+
+target = 67
+
+low = 0
+high = len(arr) - 1
+
+while low <= high:
+
+    mid = (low + high) // 2
+
+    if arr[mid] == target:
+        print("Element Found at Index:", mid)
+        break
+
+    elif arr[mid] < target:
+        low = mid + 1
+
+    else:
+        high = mid - 1
