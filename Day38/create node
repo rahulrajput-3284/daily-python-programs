@@ -14,4 +14,4 @@ node2.next = node3
 
 print(node1.data)
 print(node1.next.data)
-print(node1.next.next.data) 
+print(node1.next.next.data)
