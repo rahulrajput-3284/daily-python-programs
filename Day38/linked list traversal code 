@@ -18,5 +18,5 @@ node2.next = node3
 current = node1
 
 while current is not None:
-    print(current.data) 
+    print(current.data)
     current = current.next
