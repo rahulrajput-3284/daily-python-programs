@@ -19,4 +19,4 @@ current = node1
 
 while current is not None:
     print(current.data)
-    current = current.next
+    current = current.next 
