@@ -1,0 +1,10 @@
+def delete_20(head):
+
+    current = head
+
+    while current.next.data != 20:
+        current = current.next
+
+    current.next = current.next.next
+
+    return head
