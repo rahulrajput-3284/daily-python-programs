@@ -15,4 +15,4 @@ def reverse(head):
 
     head = prev
 
-    return head
+    return head 
