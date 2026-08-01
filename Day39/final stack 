@@ -33,4 +33,4 @@ print("Size =", s.size())
 
 print("Empty =", s.is_empty())
 
-print("Stack =", s.stack) 
+print("Stack =", s.stack)
