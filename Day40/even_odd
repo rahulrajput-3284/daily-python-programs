@@ -1,0 +1,6 @@
+even = lambda x: x % 2 == 0
+
+print(even(8))
+print(even(7))
+print(even(10))
+print(even(15))
