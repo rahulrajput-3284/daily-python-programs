@@ -1,0 +1,5 @@
+names = ["rahul", "aman", "rohit"]
+
+result = list(map(lambda name: name.upper(), names))
+
+print(result)
