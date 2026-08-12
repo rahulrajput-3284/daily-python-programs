@@ -3,4 +3,4 @@ b = [10, 20, 30]
 
 result = list(map(lambda x, y: x + y, a, b))
 
-print(result) 
+print(result)
