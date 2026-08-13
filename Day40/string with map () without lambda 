@@ -2,4 +2,4 @@ names = ["rahul", "aman", "rohit"]
 
 result = list(map(str.upper, names))
 
-print(result)
+print(result) 
