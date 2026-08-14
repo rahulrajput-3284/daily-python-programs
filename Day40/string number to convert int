@@ -1,0 +1,5 @@
+numbers = ["5", "10", "15"]
+
+result = map(int, numbers)
+
+print(list(result))
