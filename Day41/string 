@@ -1,3 +1,5 @@
+names = ["Rahul", "Aman", "Rohit", "Raj", "Ankit"]
+
 result = list(filter(lambda name: len(name) > 4, names))
 
 print(result)
