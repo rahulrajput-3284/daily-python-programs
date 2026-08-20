@@ -2,4 +2,4 @@ data = ["Rahul", "", "Aman", None, "Rohit", "", "Raj"]
 
 result = list(filter(lambda x: x is not None and x != "", data))
 
-print(result)
+print(result) 
