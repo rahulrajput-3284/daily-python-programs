@@ -2,4 +2,4 @@ data = ["Rahul", "", "Aman", None, "Rohit", "", "Raj"]
 
 result = list(filter(None, data))
 
-print(result) 
+print(result)
