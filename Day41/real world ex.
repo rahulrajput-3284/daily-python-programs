@@ -1,0 +1,12 @@
+products = [
+    {"name": "Laptop", "price": 60000},
+    {"name": "Mouse", "price": 500},
+    {"name": "Phone", "price": 30000},
+    {"name": "Keyboard", "price": 1500}
+]
+
+result = list(
+    filter(lambda product: product["price"] > 10000, products)
+)
+
+print(result)
