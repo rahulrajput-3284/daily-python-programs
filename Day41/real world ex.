@@ -9,4 +9,4 @@ result = list(
     filter(lambda product: product["price"] > 10000, products)
 )
 
-print(result)
+print(result) 
