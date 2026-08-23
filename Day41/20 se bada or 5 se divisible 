@@ -4,4 +4,4 @@ result = list(
     filter(lambda x: x > 20 and x % 5 == 0, numbers)
 )
 
-print(result)
+print(result) 
