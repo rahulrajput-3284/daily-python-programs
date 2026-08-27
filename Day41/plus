@@ -4,4 +4,4 @@ numbers = [5, 10, 15]
 
 result = reduce(lambda x, y: x + y, numbers)
 
-print(result)
+print(result) 
