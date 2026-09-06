@@ -2,4 +2,4 @@ numbers = [5, 10, 15, 20]
 
 result = ["Pass" if x >= 10 else "Fail" for x in numbers]
 
-print(result) 
+print(result)
