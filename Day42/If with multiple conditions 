@@ -1,0 +1,5 @@
+numbers = [5, 10, 15, 20, 25, 30]
+
+result = [x for x in numbers if x > 10 and x % 2 == 0]
+
+print(result)
