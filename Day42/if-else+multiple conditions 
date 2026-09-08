@@ -6,4 +6,4 @@ result = [
     for x in numbers
 ]
 
-print(result)
+print(result) 
