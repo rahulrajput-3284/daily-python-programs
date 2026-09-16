@@ -1,0 +1,1 @@
+result = [x for row in matrix for x in row if x % 2 == 0]
