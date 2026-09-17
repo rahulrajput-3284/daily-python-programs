@@ -1,1 +1,1 @@
-[[x if x % 2 == 0 else 0 for x in row] for row in matrix]
+[[x if x % 2 == 0 else 0 for x in row] for row in matrix] 
