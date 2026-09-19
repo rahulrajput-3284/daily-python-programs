@@ -1,2 +1,2 @@
 numbers = [1, 2, 3]
-result = {x: x * x for x in numbers}
+result = {x: x * x for x in numbers} 
