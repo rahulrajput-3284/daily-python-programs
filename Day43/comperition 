@@ -1,0 +1,11 @@
+marks = {
+    "Rahul": 80,
+    "Aman": 45,
+    "Ravi": 70
+}
+
+result = {
+    name: mark
+    for name, mark in marks.items()
+    if mark >= 60
+}
