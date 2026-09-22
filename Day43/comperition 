@@ -8,4 +8,4 @@ result = {
     name: mark
     for name, mark in marks.items()
     if mark >= 60
-}
+} 
