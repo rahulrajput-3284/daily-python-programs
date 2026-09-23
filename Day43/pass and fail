@@ -9,4 +9,4 @@ result = {
     for name, mark in marks.items()
 }
 
-print(result) 
+print(result)
