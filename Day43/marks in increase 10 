@@ -1,0 +1,12 @@
+marks = {
+    "Rahul": 80,
+    "Aman": 45,
+    "Ravi": 70
+}
+
+result = {
+    name: mark + 10
+    for name, mark in marks.items()
+}
+
+print(result)
