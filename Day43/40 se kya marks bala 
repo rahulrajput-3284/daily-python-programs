@@ -1,0 +1,12 @@
+marks = {
+    "Rahul": 85,
+    "Aman": 35,
+    "Ravi": 65
+}
+
+result = {
+    name: "Pass" if mark >= 40 else "Fail"
+    for name, mark in marks.items()
+}
+
+print(result)
