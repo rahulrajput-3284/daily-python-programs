@@ -5,4 +5,4 @@ def numbers():
 g = numbers()
 
 for x in g:
-    print(x) 
+    print(x)
