@@ -1,0 +1,15 @@
+numbers = [10, 20, 30]
+
+# Method 1: Normal for loop
+for x in numbers:
+    print(x)
+
+# Method 2: Iterator + while loop
+it = iter(numbers)
+
+while True:
+    try:
+        x = next(it)
+        print(x)
+    except StopIteration:
+        break
