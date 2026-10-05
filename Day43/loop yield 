@@ -5,4 +5,4 @@ while True:
         x = next(it)
         print(x)
     except StopIteration:
-        break
+        break 
