@@ -1,0 +1,10 @@
+def add(*args):
+    total = 0
+
+    for x in args:
+        total = total + x
+
+    return total
+
+result = add(5, 10, 15)
+print(result)
