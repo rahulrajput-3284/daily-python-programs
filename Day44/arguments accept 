@@ -1,0 +1,5 @@
+def show(*args):
+    for x in args:
+        print(x)
+
+show("Rahul", 21, "BCA")
