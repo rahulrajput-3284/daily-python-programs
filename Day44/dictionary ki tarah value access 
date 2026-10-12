@@ -2,4 +2,4 @@ def student(**kwargs):
     print(kwargs["name"])
     print(kwargs["age"])
 
-student(name="Rahul", age=21, course="BCA") 
+student(name="Rahul", age=21, course="BCA")
