@@ -1,4 +1,4 @@
 def student(name, age, course):
     print(name, age, course)
 
-student("Rahul", 21, "BCA")
+student("Rahul", 21, "BCA") 
