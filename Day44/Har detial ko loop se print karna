@@ -7,4 +7,4 @@ student(
     age=21,
     course="BCA",
     city="Sehore"
-) 
+)
