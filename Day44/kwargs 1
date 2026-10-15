@@ -1,0 +1,4 @@
+def details(**kwargs):
+    print(kwargs["city"])
+
+details(name="Rahul", city="Sehore", course="BCA")
