@@ -2,4 +2,4 @@ def test(*args, **kwargs):
     print(args)
     print(kwargs)
 
-test(10, 20, name="Rahul", age=21) 
+test(10, 20, name="Rahul", age=21)
