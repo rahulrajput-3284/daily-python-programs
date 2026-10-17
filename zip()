@@ -1,0 +1,6 @@
+names = ["Rahul", "Aman", "Ravi"]
+marks = [85, 70, 90]
+
+result = zip(names, marks)
+
+print(list(result))
