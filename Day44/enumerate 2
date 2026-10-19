@@ -1,3 +1,0 @@
-fruits = ["Apple", "Mango", "Banana"]
-
-print(list(enumerate(fruits, start=1)))
