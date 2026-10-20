@@ -1,4 +1,4 @@
 nums = [2, 4, 6, 7]
 
 print(any(n % 2 != 0 for n in nums))
-print(all(n % 2 == 0 for n in nums)) 
+print(all(n % 2 == 0 for n in nums))
