@@ -1,0 +1,3 @@
+names = ["Rahul", "Aman", "Rohit"]
+
+print(max(names, key=len))
