@@ -1,0 +1,3 @@
+words = ["cat", "elephant", "tiger", "ox"]
+
+print(min(words, key=len))
