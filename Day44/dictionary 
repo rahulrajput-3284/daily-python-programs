@@ -5,4 +5,4 @@ student = {
 
 student["age"] = 22
 
-print(student["age"]) 
+print(student["age"])
