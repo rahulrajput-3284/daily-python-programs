@@ -2,4 +2,4 @@ student = {"name": "Rahul", "age": 21}
 
 student.update({"age": 22, "city": "Indore"})
 
-print(student)
+print(student) 
