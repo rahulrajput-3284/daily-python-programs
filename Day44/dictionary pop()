@@ -1,0 +1,9 @@
+student = {
+    "name": "Rahul",
+    "age": 21,
+    "city": "Indore"
+}
+
+student.pop("age")
+
+print(student)
