@@ -6,4 +6,4 @@ student = {
 
 student.pop("age")
 
-print(student)
+print(student) 
