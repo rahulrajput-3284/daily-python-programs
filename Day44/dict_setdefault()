@@ -1,0 +1,5 @@
+student = {"name": "Rahul", "age": 21}
+
+student.setdefault("city", "Indore")
+
+print(student)
