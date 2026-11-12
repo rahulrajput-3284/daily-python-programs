@@ -2,4 +2,4 @@ keys = ["name", "age", "city"]
 
 data = dict.fromkeys(keys, 0)
 
-print(data)
+print(data) 
