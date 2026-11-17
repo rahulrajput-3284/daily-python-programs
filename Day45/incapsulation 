@@ -2,5 +2,8 @@ class Bank:
     def __init__(self):
         self.__balance = 5000
 
+    def get_balance(self):
+        return self.__balance
+
 b = Bank()
-print(b.__balance)
+print(b.get_balance())  # 5000
