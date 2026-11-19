@@ -8,4 +8,4 @@ s1 = Student("Rahul")
 s2 = Student("Amit")
 
 print(s1.college)
-print(s2.college)
+print(s2.college) 
