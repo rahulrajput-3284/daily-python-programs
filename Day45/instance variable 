@@ -5,7 +5,7 @@ class Student:
         self.name = name
 
 s1 = Student("Rahul")
-s2 = Student("Amit")
+s2 = Student("Amit") 
 
 print(s1.name)
 print(s2.name)
