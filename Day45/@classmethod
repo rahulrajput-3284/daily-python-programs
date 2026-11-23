@@ -7,4 +7,4 @@ class Student:
 
 Student.change_college("MIT")
 
-print(Student.college) 
+print(Student.college)
