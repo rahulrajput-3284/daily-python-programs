@@ -1,0 +1,10 @@
+class Student:
+    college = "MIST"
+
+    @classmethod
+    def change_college(cls, new_name):
+        cls.college = new_name
+
+Student.change_college("MIT")
+
+print(Student.college)
