@@ -6,6 +6,6 @@ class Student:
     def __str__(self):
         return f"Name: {self.name}, Age: {self.age}"
 
-s1 = Student("Rahul", 21) 
+s1 = Student("Rahul", 21)
 
 print(s1)
