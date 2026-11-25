@@ -5,4 +5,4 @@ except ZeroDivisionError:
     print("Cannot divide by zero")
 
 finally:
-    print("Program completed")
+    print("Program completed") 
